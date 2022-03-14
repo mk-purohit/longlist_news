@@ -1,0 +1,77 @@
+# Python bytecode:
+*.py[co]
+.coverage
+.boto
+*test_data.json
+
+# Packaging files:
+*.egg*
+dist
+
+# Editor temp files:
+*.swp
+*~
+._*.docx
+._~$*.docx
+._*.*
+
+# Any unwanted build directories:
+build
+
+# SQLite3 database files:
+*.db
+*.rdb
+
+# Celerybeat scheduler file:
+celerybeat-schedule
+
+# Editor related files
+.idea/
+.vscode/
+
+# Mac folder cache
+.DS_Store
+
+.htaccess
+
+# font cache
+.sass-cache
+
+# static and media files:
+static/
+media/
+
+# local settings:
+settings/local.py
+settings/test.py
+
+# Any database dumps:
+*.psql
+*.dump
+
+# emacs cruft:
+*~
+*#*
+
+# git merge conflict files:
+*.orig
+
+# serverless:
+.serverless
+
+# pyenv:
+.python-version
+
+# Any local env files
+/local.env
+/.envrc
+.env
+*.bak
+
+
+# Virtual env files
+/venv
+env
+
+# Secret Files
+secrets.ini
