@@ -21,7 +21,7 @@ class Key(models.Model):
     status = models.BooleanField(default=True)
 
     def __str__(self):
-        self.name
+        return self.name
 
 
 # to store company names for framing the key to search
