@@ -72,6 +72,3 @@ settings/test.py
 # Virtual env files
 /venv
 env
-
-# Secret Files
-secrets.ini

@@ -9,7 +9,6 @@ class Newsitem(models.Model):
     source = models.CharField(max_length=255)
     snippet = models.CharField(max_length=255)
     date_posted = models.DateField()
-    quality_source = models.BooleanField(default=True)
 
     def __str__(self):
         return self.title

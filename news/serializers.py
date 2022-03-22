@@ -6,7 +6,7 @@ from .models import Newsitem, Key, Company, Postingsite
 class NewsitemSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Newsitem
-        fields = ('title', 'link', 'source', 'snippet', 'date_posted', 'quality_source')
+        fields = ('title', 'link', 'source', 'snippet', 'date_posted')
 
 class KeySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:

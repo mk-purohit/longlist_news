@@ -1,10 +1,11 @@
-# from django.shortcuts import render
-
 from rest_framework import viewsets
+
+
 from .serializers import NewsitemSerializer, KeySerializer, CompanySerializer, PostingsiteSerializer
 from .models import Newsitem, Key, Company, Postingsite
 
 # Create your views here.
+
 
 class NewsitemViewSet(viewsets.ModelViewSet):
     queryset = Newsitem.objects.all().order_by('date_posted')

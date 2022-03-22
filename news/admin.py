@@ -5,7 +5,7 @@ from .models import Newsitem, Key, Company, Postingsite
 # Register your models here.
 
 class NewsitemAdmin(admin.ModelAdmin):
-   list_display = ('title', 'link', 'source', 'snippet', 'date_posted', 'quality_source')
+   list_display = ('title', 'link', 'source', 'snippet', 'date_posted')
 
 class KeyAdmin(admin.ModelAdmin):
     list_display = ('name', 'status')
